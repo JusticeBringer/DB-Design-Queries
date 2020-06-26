@@ -32,4 +32,4 @@ independent entity; minimum 10 records for the associative table).
    
 2. Realization of the entity-relationship diagram (ERD).
 
-https://github.com/JusticeBringer/DB-Design-Queries/blob/master/erd.png
+![alt text](https://github.com/JusticeBringer/DB-Design-Queries/blob/master/erd.png)
