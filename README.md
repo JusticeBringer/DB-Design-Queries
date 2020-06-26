@@ -24,3 +24,12 @@ independent entity; minimum 10 records for the associative table).
    - multiple-row / aggregate functions (AVG, SUM, MIN, MAX, COUNT);
    - subqueries in the clauses: SELECT, FROM, WHERE, HAVING;
    - DIVISION operator.
+
+## Solution
+
+1. Brief presentation of the database (its use).
+   - The design of the chosen database describes a store, which also has locations in the real world, but you can also shop online. 
+   
+2. Realization of the entity-relationship diagram (ERD).
+
+https://github.com/JusticeBringer/DB-Design-Queries/blob/master/erd.png
