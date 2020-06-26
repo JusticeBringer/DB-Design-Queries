@@ -27,18 +27,17 @@ independent entity; minimum 10 records for the associative table).
 
 Observation: The database must be in the third normal form (3NF).
 
+**NOTE:** Results of the queries from the ”SQL” script can be seen [here](https://github.com/JusticeBringer/DB-Design-Queries/blob/master/queries.pdf).
+
 ## Solution
 
 1. Brief presentation of the database (its use).
    - The design of the chosen database describes a store, which also has locations in the real world, but you can also shop online. 
-   
 2. Realization of the entity-relationship diagram (ERD).
    - ![ERD](https://github.com/JusticeBringer/DB-Design-Queries/blob/master/erd.png)
    - The design is interpreted as follows: The store has real world locations located in the "OFFICE_GAR" table. Customers from the "EMPLOYEE_GAR" table work in those stores. Various customers can shop at these stores. Each customer is managed by an employee, ie the customer's order is verified by an employee. A customer's orders are located in the "ORDER_GAR" table. Details about the customer's payment method are in the "PAYMENT_GAR" table. There are 2 cases when making the payment: when it is made online, the customer is bound to a bank and pays by card, and when it is actually paid, the customer is not necessarily tied to a bank, being able to pay "cash", in this case which is the convention that the bank name will be set to “NO BANK”, and the attributes last name, first name, phone, address, email are set to null for that record.
-
 3. Realization of the conceptual diagram, integrating all the necessary attributes.
    - ![Conceputal diagram](https://github.com/JusticeBringer/DB-Design-Queries/blob/master/conceptual.png)
-
 4. Define tables in Oracle, implementing all necessary integrity constraints (primary keys, external keys, etc.). 
 
 ```
@@ -388,3 +387,5 @@ WHERE NOT EXISTS (
     WHERE EG.EMP_ID = CG.SALES_EMP_ID
 );
 ```
+
+**NOTE:** Results of the queries from the ”SQL” script can be seen [here](https://github.com/JusticeBringer/DB-Design-Queries/blob/master/queries.pdf).
