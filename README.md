@@ -16,12 +16,11 @@ Design and implement using Oracle 11g / 12c a relational database (minimum 5 ind
 5. Adding consistent information to the created tables (minimum 3-5 records for each
 independent entity; minimum 10 records for the associative table).
 6. Write 15 queries, as complex as possible, to illustrate the following learned aspects:
-• the clauses GROUP BY, HAVING, START WITH, CONNECT BY, ORDER BY;
-• functions for working with strings and calendar data (LOWER, UPPER,
-SUBSTR, INSTR, TO_CHAR, TO_DATE, ADD_MONTHS, MONTHS_BETWEEN etc.);
-• various functions (DECODE, NVL, NULLIF, CASE, etc.);
-• INNER, LEFT, RIGHT, FULL JOIN;
-• operators on sets;
-• multiple-row / aggregate functions (AVG, SUM, MIN, MAX, COUNT);
-• subqueries in the clauses: SELECT, FROM, WHERE, HAVING;
-• DIVISION operator.
+   - the clauses GROUP BY, HAVING, START WITH, CONNECT BY, ORDER BY;
+   - functions for working with strings and calendar data (LOWER, UPPER, SUBSTR, INSTR, TO_CHAR, TO_DATE, ADD_MONTHS, MONTHS_BETWEEN etc.);
+   - various functions (DECODE, NVL, NULLIF, CASE, etc.);
+   - INNER, LEFT, RIGHT, FULL JOIN;
+   - operators on sets;
+   - multiple-row / aggregate functions (AVG, SUM, MIN, MAX, COUNT);
+   - subqueries in the clauses: SELECT, FROM, WHERE, HAVING;
+   - DIVISION operator.
